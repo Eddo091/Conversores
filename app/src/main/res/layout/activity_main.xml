@@ -41,7 +41,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Spinner
-        android:id="@+id/spinner"
+        android:id="@+id/cboTipo"
         android:layout_width="153dp"
         android:layout_height="39dp"
         android:layout_marginStart="60dp"
@@ -56,25 +56,15 @@
         app:layout_constraintVertical_bias="0.112" />
 
     <Spinner
-        android:id="@+id/spinner2"
+        android:id="@+id/cboDe"
         android:layout_width="113dp"
         android:layout_height="28dp"
-        android:layout_marginStart="14dp"
-        android:layout_marginLeft="14dp"
-        android:layout_marginBottom="596dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.039"
-        app:layout_constraintStart_toEndOf="@+id/editTextNumberDecimal2" />
-
-    <EditText
-        android:id="@+id/editTextNumberDecimal2"
-        android:layout_width="116dp"
-        android:layout_height="32dp"
-        android:ems="10"
-        android:inputType="numberDecimal"
-        tools:layout_editor_absoluteX="35dp"
-        tools:layout_editor_absoluteY="224dp" />
+        app:layout_constraintHorizontal_bias="0.512"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.278" />
 
     <TextView
         android:id="@+id/txtDe"
@@ -86,11 +76,11 @@
         android:layout_marginEnd="72dp"
         android:layout_marginRight="72dp"
         android:layout_marginBottom="18dp"
-        android:text="De:"
-        app:layout_constraintBottom_toTopOf="@+id/spinner2"
+        android:text="@string/de"
+        app:layout_constraintBottom_toTopOf="@+id/cboDe"
         app:layout_constraintEnd_toStartOf="@+id/txtA"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/spinner"
+        app:layout_constraintTop_toBottomOf="@+id/cboTipo"
         app:layout_constraintVertical_bias="0.0" />
 
     <TextView
@@ -101,14 +91,14 @@
         android:layout_marginEnd="96dp"
         android:layout_marginRight="96dp"
         android:layout_marginBottom="13dp"
-        android:text="A:"
-        app:layout_constraintBottom_toTopOf="@+id/spinner3"
+        android:text="@string/a"
+        app:layout_constraintBottom_toTopOf="@+id/cboA"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/spinner"
+        app:layout_constraintTop_toBottomOf="@+id/cboTipo"
         app:layout_constraintVertical_bias="0.0" />
 
     <Spinner
-        android:id="@+id/spinner3"
+        android:id="@+id/cboA"
         android:layout_width="117dp"
         android:layout_height="34dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -117,5 +107,20 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.273" />
+
+    <EditText
+        android:id="@+id/txtnum"
+        android:layout_width="118dp"
+        android:layout_height="43dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:labelFor="@id/txtnum"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.091"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.265" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

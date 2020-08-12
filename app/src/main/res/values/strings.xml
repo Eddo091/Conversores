@@ -10,4 +10,6 @@
     <string name="tiempo">Tiempo</string>
     <string name="transferencia_datos">Transferencia Datos</string>
     <string name="seleccione">Seleccione:</string>
+    <string name="de">De:</string>
+    <string name="a">A:</string>
 </resources>
