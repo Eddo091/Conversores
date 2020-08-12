@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="cbotipo" >
+    <item>Monedas</item>
+        <item>Masa</item>
+        <item>Volumen</item>
+        <item>Longitud</item>
+        <item>Almacenamiento</item>
+        <item>Tiempo</item>
+        <item>Transferencia de datos</item>
+
+
+    </string-array>
+
+
+
+</resources>
