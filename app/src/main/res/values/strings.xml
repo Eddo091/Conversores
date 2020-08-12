@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Conversores</string>
+    <string name="ingrese_numero">Ingrese numero:</string>
+    <string name="conversor_de_unidades">Conversor de unidades</string>
+    <string name="monedas">Monedas</string>
+    <string name="masa">Masa</string>
+    <string name="volumen">Volumen</string>
+    <string name="longitud">Longitud</string>
+    <string name="almacenamiento">Almacenamiento</string>
+    <string name="tiempo">Tiempo</string>
+    <string name="transferencia_datos">Transferencia Datos</string>
+</resources>
