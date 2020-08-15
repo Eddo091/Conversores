@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
             {"Bit","Byte","KB", "MB","GB", "TB","PB","EB","ZB","YB"},//Almacenamiento
             {"Sg","Nanosg","Minuto", "Hora","Día", "Semana","Mes","Año Natural","Década","Siglo"},//Tiempo
             {"Bit por sg","Kbit por sg","KB por sg", "MGBit por sg","MG por sg", "MiBit por sg","GBit por sg","GB por sg","Gibit por sg","TB por sg"},//Transferencia de datos
-    };
+    }; //Save
 
 
 EditText n1;
