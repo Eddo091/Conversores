@@ -17,7 +17,7 @@
         <item>Colon SV</item>
         <item>Colon CR</item>
         <item>Lempira</item>
-        <item>Quetzal</item>
+        <item>Bitcoin</item>
         <item>Won Sur Coreano</item>
         <item>Won Nor Coreano</item>
         <item>Peso ARG</item>
@@ -26,85 +26,86 @@
     </string-array>
 
     <string-array name="Masa" >
-        <item>Dolar</item>
-        <item>Euro</item>
-        <item>Colon SV</item>
-        <item>Colon CR</item>
-        <item>Lempira</item>
-        <item>Quetzal</item>
-        <item>Won Sur Coreano</item>
-        <item>Won Nor Coreano</item>
-        <item>Peso ARG</item>
-        <item>Peso MXN</item>
+        <item>Gramo</item>
+        <item>Kilogramo</item>
+        <item>Miligramo</item>
+        <item>Microgramo</item>
+        <item>Tonelada Larga</item>
+        <item>Tonelada Corta</item>
+        <item>Libra</item>
+        <item>Onza</item>
+        <item>Tonelada</item>
+        <item>Stone</item>
 
     </string-array>
     <string-array name="Volumen" >
-        <item>Dolar</item>
-        <item>Euro</item>
-        <item>Colon SV</item>
-        <item>Colon CR</item>
-        <item>Lempira</item>
-        <item>Quetzal</item>
-        <item>Won Sur Coreano</item>
-        <item>Won Nor Coreano</item>
-        <item>Peso ARG</item>
-        <item>Peso MXN</item>
+        <item>Litro</item>
+        <item>Mililitro</item>
+        <item>Galón imperial</item>
+        <item>Cuarto imperial</item>
+        <item>Pinta imperial</item>
+        <item>Taza imperial</item>
+        <item>Cucharada imperial</item>
+        <item>Cucharadita imperial</item>
+        <item>Pie cúbico</item>
+        <item>Pulgada cúbica</item>
 
     </string-array>
 
     <string-array name="Longitud" >
-        <item>Dolar</item>
-        <item>Euro</item>
-        <item>Colon SV</item>
-        <item>Colon CR</item>
-        <item>Lempira</item>
-        <item>Quetzal</item>
-        <item>Won Sur Coreano</item>
-        <item>Won Nor Coreano</item>
-        <item>Peso ARG</item>
-        <item>Peso MXN</item>
+        <item>Metro</item>
+        <item>CM</item>
+        <item>Milimetro</item>
+        <item>Micrómetro</item>
+        <item>Nanómetro</item>
+        <item>Milla</item>
+        <item>Yarda</item>
+        <item>Pie</item>
+        <item>Pulgada</item>
+        <item>Milla Náutica</item>
 
     </string-array>
 
     <string-array name="Almacenamiento" >
-        <item>Dolar</item>
-        <item>Euro</item>
-        <item>Colon SV</item>
-        <item>Colon CR</item>
-        <item>Lempira</item>
-        <item>Quetzal</item>
-        <item>Won Sur Coreano</item>
-        <item>Won Nor Coreano</item>
-        <item>Peso ARG</item>
-        <item>Peso MXN</item>
+        <item>Bit</item>
+        <item>Byte</item>
+        <item>KB</item>
+        <item>MB</item>
+        <item>GB</item>
+        <item>TB</item>
+        <item>PB</item>
+        <item>EB</item>
+        <item>ZB</item>
+        <item>YB</item>
 
     </string-array>
 
     <string-array name="Tiempo" >
-        <item>Dolar</item>
-        <item>Euro</item>
-        <item>Colon SV</item>
-        <item>Colon CR</item>
-        <item>Lempira</item>
-        <item>Quetzal</item>
-        <item>Won Sur Coreano</item>
-        <item>Won Nor Coreano</item>
-        <item>Peso ARG</item>
-        <item>Peso MXN</item>
+        <item>Sg</item>
+        <item>Nanosg</item>
+        <item>Minuto</item>
+        <item>Hora</item>
+        <item>Día</item>
+        <item>Semana</item>
+        <item>Mes</item>
+        <item>Año Natural</item>
+        <item>Década</item>
+        <item>Siglo</item>
+
 
     </string-array>
 
     <string-array name="TransferenciadeDatos" >
-        <item>Dolar</item>
-        <item>Euro</item>
-        <item>Colon SV</item>
-        <item>Colon CR</item>
-        <item>Lempira</item>
-        <item>Quetzal</item>
-        <item>Won Sur Coreano</item>
-        <item>Won Nor Coreano</item>
-        <item>Peso ARG</item>
-        <item>Peso MXN</item>
+        <item>Bit por sg</item>
+        <item>Kbit por sg</item>
+        <item>KB por sg</item>
+        <item>MGbit por sg</item>
+        <item>MG por sg</item>
+        <item>MiBit por sg</item>
+        <item>GBit por sg</item>
+        <item>GB por sg</item>
+        <item>GiBit por sg</item>
+        <item>TB por sg</item>
 
     </string-array>
 
