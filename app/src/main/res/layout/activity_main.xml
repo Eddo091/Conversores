@@ -48,12 +48,14 @@
         android:layout_marginLeft="60dp"
         android:layout_marginEnd="146dp"
         android:layout_marginRight="146dp"
+        android:entries="@array/Tipo"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toEndOf="@+id/lblConversor"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.112" />
+        app:layout_constraintVertical_bias="0.112"
+        />
 
     <Spinner
         android:id="@+id/cboDe"
