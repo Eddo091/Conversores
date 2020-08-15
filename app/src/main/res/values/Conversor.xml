@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string-array name="cbotipo" >
+    <string-array name="Tipo" >
     <item>Monedas</item>
         <item>Masa</item>
         <item>Volumen</item>
@@ -11,7 +11,19 @@
 
 
     </string-array>
+    <string-array name="Moneda" >
+        <item>Dolar</item>
+        <item>Euro</item>
+        <item>Colon SV</item>
+        <item>Colon CR</item>
+        <item>Lempira</item>
+        <item>Quetzal</item>
+        <item>Won Sur Coreano</item>
+        <item>Won Nor Coreano</item>
+        <item>Peso ARG</item>
+        <item>Peso MXN</item>
 
+    </string-array>
 
 
 </resources>

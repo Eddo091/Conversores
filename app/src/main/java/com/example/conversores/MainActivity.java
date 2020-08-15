@@ -15,8 +15,8 @@ import android.widget.Toast;
 
 import java.util.Collections;
 
-public class MainActivity extends AppCompatActivity implements AdapterView.OnItemSelectedListener {
-Conversor ObjConversor  = new Conversor();
+public class MainActivity extends AppCompatActivity  {
+
 
 Spinner sptipo;
 Spinner spDe;
@@ -32,40 +32,5 @@ Button BtnConv;
         super.onCreate( savedInstanceState );
         setContentView( R.layout.activity_main );
         //Definir
-        n1 = (EditText) findViewById( R.id.num1 );
-        lblRes = (TextView) findViewById( R.id.lblRespuesta );
-        sptipo = (Spinner) findViewById( R.id.cboTipo );
-        spA = (Spinner) findViewById( R.id.cboA );
-        spDe = (Spinner) findViewById( R.id.cboDe );
-        BtnConv = (Button) findViewById( R.id.BtnConvertir );
-        ArrayAdapter<String> Tip;
-        ArrayAdapter<String> de;
-        ArrayAdapter<String> a;
-        String Tipo= String.valueOf( ObjConversor.Tipo );
-        String De= String.valueOf( ObjConversor.Conversor );
-        String A= String.valueOf( ObjConversor.Conversor );
-        sptipo.setOnItemClickListener( (AdapterView.OnItemClickListener) this );
-        spA.setOnItemClickListener( (AdapterView.OnItemClickListener) this );
-        spDe.setOnItemClickListener( (AdapterView.OnItemClickListener) this );
-        Tip= new ArrayAdapter<String>(this,android.R.layout.simple_spinner_dropdown_item, Collections.singletonList( Tipo ) );
-        de= new ArrayAdapter<String>(this,android.R.layout.simple_spinner_dropdown_item, Collections.singletonList( De ) );
-        a= new ArrayAdapter<String>(this,android.R.layout.simple_spinner_dropdown_item, Collections.singletonList( A) );
-
-        sptipo.setAdapter( Tip );
-        spDe.setAdapter(de );
-        spA.setAdapter( a );
-
-
-    }
-
-
-    @Override
-    public void onItemSelected(AdapterView<?> a, View view, int i, long l) {
-
-    }
-
-    @Override
-    public void onNothingSelected(AdapterView<?> adapterView) {
-
     }
 }
