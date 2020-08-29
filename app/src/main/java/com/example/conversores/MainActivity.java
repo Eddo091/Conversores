@@ -33,20 +33,20 @@ public class MainActivity extends AppCompatActivity {
 
     };
 
+    //Definir
+    final Spinner spDe=(Spinner)findViewById( R.id.cboDe );
+    final Spinner spA=(Spinner)findViewById( R.id.cboA );
+    final EditText n1=(EditText)findViewById( R.id.num1 );
+    final TextView lblresp=(TextView)findViewById( R.id.lblRespuesta );
+    final Button Convertir=(Button)findViewById( R.id.BtnConvertir );
+    final Spinner sptipo =(Spinner)findViewById( R.id.cboTipo );
     //Save
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate( savedInstanceState );
         setContentView( R.layout.activity_main );
-        //Definir
-        final Spinner spDe=(Spinner)findViewById( R.id.cboDe );
-        final Spinner spA=(Spinner)findViewById( R.id.cboA );
-        final EditText n1=(EditText)findViewById( R.id.num1 );
-        final TextView lblresp=(TextView)findViewById( R.id.lblRespuesta );
-        final Button Convertir=(Button)findViewById( R.id.BtnConvertir );
-        //Spinner
-        final Spinner sptipo =(Spinner)findViewById( R.id.cboTipo );
+
         sptipo.setOnItemSelectedListener( new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> adapterView, View view, int position, long l) {
@@ -59,45 +59,62 @@ public class MainActivity extends AppCompatActivity {
 
             }
 
-            public double procesar(){
-                boolean retorno= true;
-                int opcion = 0,de=0,a = 0;
-                double cantidad = 0;
-
-                return valores[opcion][a]/valores[opcion][de]*cantidad;
-            };
-            //Onclick_codigo
-            public  void ProcesarBtncon (View c)
-            {
-                validar();
-                procesar();
-
-
-            }
-            //Validación de texto
-            public boolean validar(){
-            boolean retorno=true;
-            String num=n1.getText().toString();
-
-            if (num.isEmpty())
-            {
-                n1.setError( "Ingrese numero valido" );
-                retorno=false;
-            }
-            return  retorno;
-
-            }
-
-
-
-
-
         } );
 
     }
+
+
+
+    //Validación de texto
+    public boolean validar(){
+        boolean retorno=true;
+        EditText n1=(EditText)findViewById( R.id.num1 );
+        String num=n1.getText().toString();
+
+        if (num.isEmpty())
+        {
+            n1.setError( "Ingrese numero valido" );
+            retorno=false;
+        }
+        return  retorno;
+
+    }
+
 //Onclick_Accion
     public void ProcesarBtnConvertir(View view) {
        ProcesarBtnConvertir( view );
+        validar();
+
+        int opcion = 0,de=0,a=0;
+        double cantidad = 0,resp=0;
+        de= spDe.getSelectedItemPosition();
+        a=  spA.getSelectedItemPosition();
+        switch (sptipo.getId()){
+
+            case 0:
+                resp= valores[0][a]/valores[0][de]*cantidad;
+                break;
+            case 1:
+                resp= valores[1][a]/valores[1][de]*cantidad;
+                break;
+            case 2:
+                resp= valores[2][a]/valores[2][de]*cantidad;
+                break;
+            case 3:
+                resp= valores[3][a]/valores[3][de]*cantidad;
+                break;
+            case 4:
+                resp= valores[4][a]/valores[4][de]*cantidad;
+                break;
+            case 5:
+                resp= valores[5][a]/valores[5][de]*cantidad;
+                break;
+            case 6:
+                resp= valores[6][a]/valores[6][de]*cantidad;
+                break;
+        }
+
+        lblresp.setText( "Respuesta" + resp );
 
     }
 }
