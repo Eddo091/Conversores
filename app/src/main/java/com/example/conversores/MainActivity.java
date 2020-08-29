@@ -113,7 +113,6 @@ public class MainActivity extends AppCompatActivity {
                 resp= valores[6][a]/valores[6][de]*cantidad;
                 break;
         }
-
         lblresp.setText( "Respuesta" + resp );
 
     }
