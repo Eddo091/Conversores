@@ -21,7 +21,8 @@
 
 
     </string-array>
-    <string-array name="Moneda" >
+<!--
+     <string-array name="Moneda" >
         <item>Dolar</item>
         <item>Euro</item>
         <item>Colon SV</item>
@@ -118,4 +119,5 @@
         <item>TB por sg</item>
 
     </string-array>
+-->
 </resources>
